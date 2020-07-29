@@ -8,10 +8,12 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
+    width: auto;
     background-image: url('cover.png');
     background-size: 25%;
     background-repeat: repeat;
 }
+
 #footer{
     font-family: 'Ubuntu', sans-serif;
     background-color: grey;
