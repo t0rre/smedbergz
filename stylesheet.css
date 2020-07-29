@@ -16,6 +16,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: url('smedbergz_background_small_blue.png');
+    }
+  }
 
 #footer{
     font-family: 'Ubuntu', sans-serif;
