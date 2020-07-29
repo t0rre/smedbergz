@@ -9,9 +9,11 @@ body{
     margin: 0;
     height: 100vh;
     width: auto;
-    background-image: url('cover.png');
-    background-size: 25%;
-    background-repeat: repeat;
+    background-color: lightskyblue;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #footer{
