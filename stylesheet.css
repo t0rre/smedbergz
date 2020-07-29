@@ -79,6 +79,8 @@ nav *{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 50vw 1fr;
 }
 .child {
     flex: 1 1 150px; /*  Stretching: */
