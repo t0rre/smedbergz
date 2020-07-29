@@ -24,7 +24,7 @@ body{
 
 #footer{
     font-family: 'Ubuntu', sans-serif;
-    background-color: grey;
+    background-color: dimgray;
     width: auto;
     height: 69px;
     padding: 0px;
@@ -55,27 +55,25 @@ nav *{
     text-align: center;
     color: white;
 }
-#block {
-    background-color: dimgray;
-    font-family: 'Ubuntu', sans-serif;
+#blocktitle {
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    display: block;
     color: white;
-    display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-rows: 100%;
-    grid-template-areas: "Text Image";
-    align-content: center;
-    scroll-snap-align: start;
-    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 
 }
 #blocktext {
     flex-direction: column;
     text-align: center;
-    padding: 5vw;
+    padding: 20px;
     display: block;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     grid-column: 1 / 2
 }
 #image {
@@ -88,15 +86,20 @@ nav *{
     background-color: dimgray;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    display: grid;
+    display: flex;
+    place-items: center;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 .child {
     flex: 1 1 150px; /*  Stretching: */
     margin: 5px;
+}
+#about {
+    display: inline-block;
 }
